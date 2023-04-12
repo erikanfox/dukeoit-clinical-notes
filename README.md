@@ -13,9 +13,10 @@ We created a generator (`code/fake_notes_generator.ipynb`) that produces notes t
 
 Our code will proceed in the following pipeline: 
 1. Note generating
-2. Note separation and detection
-3. Entity recognition
-4. System tagging
+2. Note type assignment
+3. Note separation and detection
+4. Entity recognition
+5. System tagging
 The result of each step will be included in the `data` directory. The details for each directory in this repository is presented in the following sections. 
 
 ## Description & Instruction
