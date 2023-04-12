@@ -1,5 +1,5 @@
 # DukeOIT-clinical-notes
-Since the original data contains sensitive information about patients' medicial records, ALL DATA IN THIS REPOSITORY IS FAKE.
+Since the original data contains sensitive information about patients' medicial records, ***ALL DATA IN THIS REPOSITORY IS FAKE.***
 
 ## Goal
 This project aims to make use of Natural Language Processing techniques to take Electronic Health Records and translate them into a set of features fit for prediction in order to more efficiently and more accurately track the progress of medical students.
@@ -33,7 +33,7 @@ The code files in this repository can be ran by the following step. The results 
 5. `detection_model_visualization.ipynb`
         The code in this file includes a NLP model performed Named Entity Recognition (NER) task that will detect the location of the symptoms and handle the negation of symptoms in the notes. The final product of this model was a visualization showing the keywords it detects. The following figure shows the result. 
 ![result](data/visualization.png)
-6. System Tagging
+6. `System Tagging`
 
 ## Result
 
