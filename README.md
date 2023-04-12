@@ -52,17 +52,17 @@ After filtering out the notes without a SOAP structure, we are left with 69.34% 
 
 | Component  | Percentage |
 |--------|----------|
-| Subjective  | 97.9%        |
-| Objective | 96.9%       |
-| Assessment | 93.5% |
-| Plan | 96.5% |
+| Subjective  | 97.0%        |
+| Objective | 93.2%       |
+| Assessment | 91.7% |
+| Plan | 95.2% |
 
 We then further separated the Objective component to prepare for entity recognition and extracted Physical Exam Constitutional (PEC) and diagnosis codes. The extraction rate is shown in the table below. 
 
  | Component  | Percentage |
 |--------|----------|
 | Physical Exam Constitutional   | 94.5%        |
-| Diagnosis Code | 48.5%       |
+| Diagnosis Code | 52.4%       |
 
 We conducted entity detection on the PEC section to extract medical terminology and handle the negated entities. An example of visualization for our detection model is shown in the forward section. Finally, we converted the list of extracted entities into an indicator table and applied feature engineering and system tagging on the list to prepare for future modeling and prediction.
 
