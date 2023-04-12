@@ -31,8 +31,11 @@ The code files in this repository can be ran by the following step. The results 
 
         Output file: notes_extracted_obj.csv
 5. `detection_model_visualization.ipynb`
-        The code in this file includes a NLP model performed Named Entity Recognition (NER) task that will detect the location of the symptoms and handle the negation of symptoms in the notes. The final product of this model was a visualization showing the keywords it detects. 
+        The code in this file includes a NLP model performed Named Entity Recognition (NER) task that will detect the location of the symptoms and handle the negation of symptoms in the notes. The final product of this model was a visualization showing the keywords it detects. The following figure shows the result. 
+![result](data/visualization.png)
+6. System Tagging
 
-        Output file: ![](visualization.png)
+## Result
+
 
 
