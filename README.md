@@ -9,7 +9,7 @@ The formal write-up containing more details about our methodologies can be found
 
 ## Introduction 
 
-We created a generator (`code/fake_notes_generator.ipynb`) that produces notes free of sensitive information, yet maintain proper clinical note structure to demonstrate the code found in this repository.
+We created a generator (`code/fake_notes_generator.ipynb`) that produces notes that are free of sensitive information, yet maintain proper clinical note structure to demonstrate the code found in this repository.
 
 Our code will proceed in the following pipeline: 
 1. Note generating
